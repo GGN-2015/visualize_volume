@@ -8,7 +8,7 @@ description = "Visualize 3D volume data."
 authors = [
     { name = "GGN_2015", email = "neko@jlulug.org" }
 ]
-version = "0.0.0"
+version = "0.0.1"
 dependencies = [
     "numpy", "vtk"
 ]

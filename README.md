@@ -1,4 +1,4 @@
-# visualization_volume
+# visualize_volume
 Visualize 3D volume data.
 
 ## Installation
