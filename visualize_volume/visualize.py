@@ -39,7 +39,8 @@ def visualize_volume(data: np.ndarray,
         ( 1.0, 1.0, 0.0,   0.0, 0.9), # Red
         ( 2.0, 1.0, 0.843, 0.0, 0.9), # Gold
     ], 
-    back_ground_color=(0.1, 0.2, 0.3) # Dark slate blue background
+    back_ground_color=(0.1, 0.2, 0.3), # Dark slate blue background
+    back_ground_alpha=1.0
 ):
     """
     Visualize a 3D numpy array using VTK with custom color mapping:
@@ -101,6 +102,7 @@ def visualize_volume(data: np.ndarray,
     renderer.SetBackground(*back_ground_color)
     renderer.SetLayer(0)
     renderer.AddVolume(volume)
+    renderer.SetBackgroundAlpha(back_ground_alpha)
 
     # Adjust initial camera position
     renderer.ResetCamera()
