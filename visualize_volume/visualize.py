@@ -98,7 +98,7 @@ def visualize_volume(data: np.ndarray,
     render_window_interactor.SetInteractorStyle(interactor_style)
 
     # Add volume to renderer
-    renderer.SetBackground(*back_ground_color)
+    # renderer.SetBackground(*back_ground_color)
     renderer.AddVolume(volume)
 
     # Adjust initial camera position
