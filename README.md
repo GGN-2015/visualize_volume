@@ -1,6 +1,8 @@
 # visualize_volume
 Visualize 3D volume data.
 
+GitHub project: [https://github.com/GGN-2015/visualize_volume](https://github.com/GGN-2015/visualize_volume)
+
 ## Installation
 ```bash
 pip install visualize_volume
